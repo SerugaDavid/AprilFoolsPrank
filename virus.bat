@@ -1,3 +1,3 @@
 :start
 dir
-goto startS
+goto start
