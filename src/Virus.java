@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
 
@@ -9,6 +10,7 @@ public class Virus {
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.setSize(800, 600);
         frame.setLayout(null);
+
         frame.addWindowFocusListener(new WindowFocusListener() {
             @Override
             public void windowGainedFocus(WindowEvent e) {
@@ -17,6 +19,13 @@ public class Virus {
 
             @Override
             public void windowLostFocus(WindowEvent e) {
+                Virus.virus();
+            }
+        });
+
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
                 Virus.virus();
             }
         });
