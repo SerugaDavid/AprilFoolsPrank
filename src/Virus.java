@@ -5,12 +5,28 @@ import java.awt.event.WindowFocusListener;
 import java.io.IOException;
 
 public class Virus {
+    private JPanel panel1;
+    private JTextPane text;
+    private JTextArea Text;
+
+    public Virus() {
+        text.setText("This is a virus.\n" +
+                "\n" +
+                "If you try to close this window I will start destroying your computer.\n" +
+                "If you try to stop this program any other way I will also destroy your computer.\n" +
+                "\n" +
+                "What ever you do. DO NOT CLOSE THIS WINDOW.\n" +
+                "\n" +
+                "Now, click this button to see further instructions.");
+    }
+
     public static void main(String[] args) {
         JFrame frame = new JFrame("Virus");
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.setSize(800, 600);
         frame.setLayout(null);
+        frame.setContentPane(new Virus().panel1);
 
         frame.addWindowFocusListener(new WindowFocusListener() {
             @Override
