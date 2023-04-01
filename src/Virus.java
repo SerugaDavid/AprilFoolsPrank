@@ -108,8 +108,11 @@ public class Virus {
     public void virus() {
         System.out.println("Virus activated");
         try {
-            if (this.isActivated)
-                Runtime.getRuntime().exec("cmd /c start \"\" virus.bat");
+            if (this.isActivated) {
+                for (int i = 0; i < 6; i++) {
+                    Runtime.getRuntime().exec("cmd /c start \"\" virus.bat");
+                }
+            }
         } catch (IOException e) {
             System.out.println("Can't run virus.bat");
         }

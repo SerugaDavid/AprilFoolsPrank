@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8017e993-03db-4018-9dd4-f3f964abdd31" name="Changes" comment="Welcome screen text">
+    <list default="true" id="8017e993-03db-4018-9dd4-f3f964abdd31" name="Changes" comment="Fixed typo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Virus.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Virus.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Virus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Virus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <recent name="C:\Users\david\Documents\GitHub\AprilFoolsPrank" />
     </key>
   </component>
-  <component name="RunManager" selected="Batch.virus (1)">
+  <component name="RunManager" selected="Application.Virus">
     <configuration name="Virus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Virus" />
       <module name="AprilFoolsPrank" />
@@ -81,9 +80,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Virus" />
         <item itemvalue="Batch.virus (1)" />
         <item itemvalue="Batch.virus" />
-        <item itemvalue="Application.Virus" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680298084837</updated>
-      <workItem from="1680298085721" duration="8567000" />
+      <workItem from="1680298085721" duration="8865000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680298294437</created>
@@ -146,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680301881852</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added instructions and added deactivation button">
+      <created>1680347485303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680347485303</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed typo">
+      <created>1680347543097</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680347543097</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +173,8 @@
     <MESSAGE value="Virus moved" />
     <MESSAGE value="Added code that runs virus" />
     <MESSAGE value="Welcome screen text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Welcome screen text" />
+    <MESSAGE value="Added instructions and added deactivation button" />
+    <MESSAGE value="Fixed typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo" />
   </component>
 </project>
