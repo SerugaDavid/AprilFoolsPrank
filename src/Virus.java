@@ -98,7 +98,8 @@ public class Virus {
             @Override
             public void windowLostFocus(WindowEvent e) {
                 System.out.println("lost focus");
-                virus.timer.start();
+                if (virus.isActivated)
+                    virus.timer.start();
             }
         });
 
