@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8017e993-03db-4018-9dd4-f3f964abdd31" name="Changes" comment="Added code that runs virus">
+    <list default="true" id="8017e993-03db-4018-9dd4-f3f964abdd31" name="Changes" comment="Welcome screen text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Virus.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Virus.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Virus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Virus.java" afterDir="false" />
@@ -39,6 +39,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,10 +49,21 @@
       <recent name="C:\Users\david\Documents\GitHub\AprilFoolsPrank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Virus">
+  <component name="RunManager" selected="Batch.virus (1)">
     <configuration name="Virus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Virus" />
       <module name="AprilFoolsPrank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="virus (1)" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="AprilFoolsPrank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\david\Documents\GitHub\AprilFoolsPrank" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="virus.bat" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,8 +81,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Virus" />
+        <item itemvalue="Batch.virus (1)" />
         <item itemvalue="Batch.virus" />
+        <item itemvalue="Application.Virus" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680298084837</updated>
-      <workItem from="1680298085721" duration="3445000" />
+      <workItem from="1680298085721" duration="8567000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680298294437</created>
@@ -125,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680300576348</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Welcome screen text">
+      <created>1680301881852</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680301881852</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +159,7 @@
     <MESSAGE value="Virus.bat file added" />
     <MESSAGE value="Virus moved" />
     <MESSAGE value="Added code that runs virus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code that runs virus" />
+    <MESSAGE value="Welcome screen text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome screen text" />
   </component>
 </project>
