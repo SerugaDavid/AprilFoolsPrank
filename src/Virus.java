@@ -8,7 +8,7 @@ public class Virus {
     private JPanel panel1;
     private JTextArea Text;
     private JButton nextInstructionButton;
-    private JTextField deactiavtionCode;
+    private JTextField deactivationCode;
     private JButton OK;
     private String[] instructions;
     private int instructionIndex;
@@ -63,11 +63,11 @@ public class Virus {
         this.instructionIndex = 0;
 
         this.OK.setVisible(false);
-        this.deactiavtionCode.setVisible(false);
+        this.deactivationCode.setVisible(false);
         this.isActivated = true;
 
         this.OK.addActionListener(e -> {
-            if (this.deactiavtionCode.getText().equals("prvi april")) {
+            if (this.deactivationCode.getText().equals("prvi april")) {
                 this.isActivated = false;
                 JOptionPane.showMessageDialog(null, "You are a genius! You saved your computer!");
                 System.exit(0);
@@ -121,7 +121,7 @@ public class Virus {
         this.Text.setText(this.instructions[this.instructionIndex++] + ((this.instructionIndex < this.instructions.length) ? end : ""));
         if (this.instructionIndex == this.instructions.length) {
             this.nextInstructionButton.setVisible(false);
-            this.deactiavtionCode.setVisible(true);
+            this.deactivationCode.setVisible(true);
             this.OK.setVisible(true);
         }
     }
