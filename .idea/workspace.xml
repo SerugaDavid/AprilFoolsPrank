@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8017e993-03db-4018-9dd4-f3f964abdd31" name="Changes" comment="Fixed typo">
+    <list default="true" id="8017e993-03db-4018-9dd4-f3f964abdd31" name="Changes" comment="Increased the number of viruses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Virus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Virus.java" afterDir="false" />
     </list>
@@ -94,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680298084837</updated>
-      <workItem from="1680298085721" duration="8865000" />
+      <workItem from="1680298085721" duration="9753000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1680298294437</created>
@@ -159,11 +159,29 @@
       <option name="project" value="LOCAL" />
       <updated>1680347543097</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Increased the number of viruses">
+      <created>1680347679497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680347679497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -175,6 +193,7 @@
     <MESSAGE value="Welcome screen text" />
     <MESSAGE value="Added instructions and added deactivation button" />
     <MESSAGE value="Fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo" />
+    <MESSAGE value="Increased the number of viruses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Increased the number of viruses" />
   </component>
 </project>
